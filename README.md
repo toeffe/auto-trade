@@ -1,4 +1,4 @@
-<img width="1280" height="1280" alt="AutoTrade" src="https://github.com/user-attachments/assets/faf0b6d0-3427-49ca-80b3-26af8b867b56" />
+<img width="1280" height="1280" alt="Auto Trade — Now with buy function" src="assets/banner.png" />
 
 This mod allows you to trade with villagers automatically without keeping the GUI open. Press **V** to toggle autotrading (instant trade → proximity trade → off).
 
