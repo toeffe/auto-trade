@@ -22,10 +22,18 @@ This mod allows you to trade with villagers automatically without keeping the GU
 
 The selected mode is saved to your config and persists across game restarts.
 
+## Download
+
+Latest build (Minecraft 26.1.2 / Fabric): [`releases/auto-trade-1.0.0.jar`](releases/auto-trade-1.0.0.jar)
+
 ## Note
 
 In order to get a clean click that doesn't open the GUI, autotrade tricks the server by sending a packet that doesn't update the user inventory. This means that your items will not visually update until the player opens a container such as a chest, shulker box, furnace, or another villager. This is 100% safe and is intended behavior.
 
+## Credits
+
+This project is a fork/extension of **[Auto Trade](https://modrinth.com/mod/auto-trade)** by **[GreeneBolt](https://modrinth.com/user/GreeneBolt)**. Original source: [greenebolt/auto-trade](https://github.com/greenebolt/auto-trade).
+
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Available under the CC0 license (same as the original mod). Feel free to learn from it and incorporate it in your own projects.
