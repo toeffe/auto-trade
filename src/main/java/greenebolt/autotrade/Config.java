@@ -83,7 +83,10 @@ public class Config {
             return TradeMode.SELL;
         }
 
-        int start = json.indexOf('"', keyIndex + MODE_KEY.length());
+        // Config is written as "Trade Mode:": "buy" — skip past the key's closing
+        // quote and the JSON colon so we parse the value, not ": ".
+        int afterKey = keyIndex + MODE_KEY.length();
+        int start = json.indexOf('"', afterKey + 1);
         if (start == -1) {
             return TradeMode.SELL;
         }
